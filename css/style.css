@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,400;0,700;1,300;1,400&family=Dancing+Script:wght@400;600;700&family=Playball&display=swap");
+
+.font-playball {
+  font-family: "Playball", cursive;
+}
+
+* {
+  font-family: "Comic Neue", cursive;
+}
+
+.bg-berem {
+  background-color: #a97272;
+}
+
+.bg-wakwak {
+  background-color: #a68185;
+}
+
+.bg-fee {
+  background-color: #a35c5c;
+}
+
+.fs-60 {
+  font-size: 60px;
+}
+
+.fs-45 {
+  font-size: 45px;
+}
+
+.fs-40 {
+  font-size: 40px;
+}
+
+.scale {
+  overflow: hidden;
+  transition: 0.5s;
+}
+.scale:hover {
+  transform: scale(1.05);
+}
+
+.modal-body {
+  background-image: url("../img/bersama.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-cover {
+  background-image: url("../img/bersama.webp");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#footer {
+  background-image: url("../img/bersama4.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+#date {
+  background-image: url("../img/bersama3.png");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
